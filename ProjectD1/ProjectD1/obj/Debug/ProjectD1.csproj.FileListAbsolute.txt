@@ -1,0 +1,12 @@
+C:\Users\David\source\repos\ProjectD1\ProjectD1\bin\Debug\ProjectD1.exe.config
+C:\Users\David\source\repos\ProjectD1\ProjectD1\bin\Debug\ProjectD1.exe
+C:\Users\David\source\repos\ProjectD1\ProjectD1\bin\Debug\ProjectD1.pdb
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.csprojAssemblyReference.cache
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.Properties.Resources.resources
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.csproj.GenerateResource.cache
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.exe
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.pdb
+C:\Users\David\source\repos\ProjectD1\ProjectD1\bin\Debug\usersDB.mdf
+C:\Users\David\source\repos\ProjectD1\ProjectD1\bin\Debug\usersDB_log.ldf
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.AboutUs.resources
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.Login.resources
