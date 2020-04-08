@@ -37,10 +37,16 @@ namespace ProjectD1
             mycommand.Connection = myconn;
 
             reader = mycommand.ExecuteReader();
-            
+
+
+
             if (reader.HasRows)
             {
                 MessageBox.Show("Welcome.");
+            }
+            else if (TBusername.Text == "" || TBpassword.Text == "")
+            {
+                MessageBox.Show("Please enter a username and a password.", "Required Fields Missing", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
