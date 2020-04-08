@@ -16,6 +16,7 @@ namespace ProjectD1
         public Login()
         {
             InitializeComponent();
+            TBusername.Select();
         }
 
         private void BTNlogin_Click(object sender, EventArgs e)

@@ -17,6 +17,7 @@ namespace ProjectD1
         public Registration()
         {
             InitializeComponent();
+            TBfirstname.Select();
         }
 
         private void BTNback_Click(object sender, EventArgs e)

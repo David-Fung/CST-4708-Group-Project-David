@@ -139,10 +139,10 @@
             // 
             this.LLaboutus.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.LLaboutus.AutoSize = true;
-            this.LLaboutus.Font = new System.Drawing.Font("Lucida Sans", 15F);
-            this.LLaboutus.Location = new System.Drawing.Point(55, 2);
+            this.LLaboutus.Font = new System.Drawing.Font("Lucida Sans", 12F);
+            this.LLaboutus.Location = new System.Drawing.Point(76, 5);
             this.LLaboutus.Name = "LLaboutus";
-            this.LLaboutus.Size = new System.Drawing.Size(99, 23);
+            this.LLaboutus.Size = new System.Drawing.Size(78, 18);
             this.LLaboutus.TabIndex = 6;
             this.LLaboutus.TabStop = true;
             this.LLaboutus.Text = "About Us";
@@ -181,10 +181,10 @@
             // 
             this.LLcontactus.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.LLcontactus.AutoSize = true;
-            this.LLcontactus.Font = new System.Drawing.Font("Lucida Sans", 15F);
-            this.LLcontactus.Location = new System.Drawing.Point(180, 2);
+            this.LLcontactus.Font = new System.Drawing.Font("Lucida Sans", 12F);
+            this.LLcontactus.Location = new System.Drawing.Point(180, 5);
             this.LLcontactus.Name = "LLcontactus";
-            this.LLcontactus.Size = new System.Drawing.Size(116, 23);
+            this.LLcontactus.Size = new System.Drawing.Size(91, 18);
             this.LLcontactus.TabIndex = 7;
             this.LLcontactus.TabStop = true;
             this.LLcontactus.Text = "Contact Us";
@@ -192,12 +192,13 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 18F);
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 14F);
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(160, 0);
+            this.label3.Location = new System.Drawing.Point(160, 3);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(14, 27);
+            this.label3.Size = new System.Drawing.Size(14, 22);
             this.label3.TabIndex = 8;
             this.label3.Text = "|";
             // 

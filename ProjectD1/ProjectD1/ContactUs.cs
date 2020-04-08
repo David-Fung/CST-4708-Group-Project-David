@@ -15,6 +15,7 @@ namespace ProjectD1
         public ContactUs()
         {
             InitializeComponent();
+            TBemail.Select();
         }
 
         private void BTNsend_Click(object sender, EventArgs e)

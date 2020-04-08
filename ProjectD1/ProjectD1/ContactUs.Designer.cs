@@ -86,7 +86,7 @@
             this.BTNlogin.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.BTNlogin.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BTNlogin.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNlogin.Location = new System.Drawing.Point(343, 210);
+            this.BTNlogin.Location = new System.Drawing.Point(342, 210);
             this.BTNlogin.Name = "BTNlogin";
             this.BTNlogin.Size = new System.Drawing.Size(90, 34);
             this.BTNlogin.TabIndex = 4;
@@ -112,7 +112,7 @@
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.54462F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.45538F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 11F));
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.TBmessage, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label2, 0, 0);
@@ -145,7 +145,7 @@
             this.TBmessage.Font = new System.Drawing.Font("Lucida Sans", 15F);
             this.TBmessage.Location = new System.Drawing.Point(118, 3);
             this.TBmessage.Name = "TBmessage";
-            this.TBmessage.Size = new System.Drawing.Size(315, 201);
+            this.TBmessage.Size = new System.Drawing.Size(314, 201);
             this.TBmessage.TabIndex = 6;
             this.TBmessage.Text = "";
             // 
@@ -172,7 +172,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ContactUs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ContactUs";
+            this.Text = "Contact Us";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
