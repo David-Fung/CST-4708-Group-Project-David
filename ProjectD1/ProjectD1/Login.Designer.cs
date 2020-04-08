@@ -39,6 +39,8 @@
             this.LLaboutus = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.LLcontactus = new System.Windows.Forms.LinkLabel();
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -60,32 +62,32 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(274, 179);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.75F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(335, 137);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(335, 140);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // BTNregister
             // 
-            this.BTNregister.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.BTNregister.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BTNregister.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BTNregister.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNregister.Location = new System.Drawing.Point(7, 91);
+            this.BTNregister.Location = new System.Drawing.Point(7, 89);
             this.BTNregister.Name = "BTNregister";
             this.BTNregister.Size = new System.Drawing.Size(113, 35);
             this.BTNregister.TabIndex = 5;
             this.BTNregister.Text = "Register";
             this.BTNregister.UseVisualStyleBackColor = false;
+            this.BTNregister.Click += new System.EventHandler(this.BTNregister_Click);
             // 
             // TBpassword
             // 
-            this.TBpassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TBpassword.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBpassword.Location = new System.Drawing.Point(130, 50);
+            this.TBpassword.Location = new System.Drawing.Point(130, 40);
             this.TBpassword.Name = "TBpassword";
             this.TBpassword.PasswordChar = '*';
-            this.TBpassword.Size = new System.Drawing.Size(173, 31);
+            this.TBpassword.Size = new System.Drawing.Size(192, 31);
             this.TBpassword.TabIndex = 3;
             // 
             // label1
@@ -94,7 +96,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 12);
+            this.label1.Location = new System.Drawing.Point(3, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 23);
             this.label1.TabIndex = 0;
@@ -105,7 +107,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 47);
+            this.label2.Location = new System.Drawing.Point(3, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(114, 23);
             this.label2.TabIndex = 1;
@@ -114,19 +116,18 @@
             // TBusername
             // 
             this.TBusername.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.TBusername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TBusername.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBusername.Location = new System.Drawing.Point(130, 8);
+            this.TBusername.Location = new System.Drawing.Point(130, 3);
             this.TBusername.Name = "TBusername";
-            this.TBusername.Size = new System.Drawing.Size(173, 31);
+            this.TBusername.Size = new System.Drawing.Size(192, 31);
             this.TBusername.TabIndex = 2;
             // 
             // BTNlogin
             // 
-            this.BTNlogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.BTNlogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BTNlogin.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BTNlogin.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNlogin.Location = new System.Drawing.Point(186, 91);
+            this.BTNlogin.Location = new System.Drawing.Point(186, 89);
             this.BTNlogin.Name = "BTNlogin";
             this.BTNlogin.Size = new System.Drawing.Size(90, 35);
             this.BTNlogin.TabIndex = 4;
@@ -136,12 +137,12 @@
             // 
             // LLaboutus
             // 
-            this.LLaboutus.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LLaboutus.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.LLaboutus.AutoSize = true;
-            this.LLaboutus.Font = new System.Drawing.Font("Lucida Sans", 12F);
-            this.LLaboutus.Location = new System.Drawing.Point(128, 5);
+            this.LLaboutus.Font = new System.Drawing.Font("Lucida Sans", 15F);
+            this.LLaboutus.Location = new System.Drawing.Point(55, 2);
             this.LLaboutus.Name = "LLaboutus";
-            this.LLaboutus.Size = new System.Drawing.Size(78, 18);
+            this.LLaboutus.Size = new System.Drawing.Size(99, 23);
             this.LLaboutus.TabIndex = 6;
             this.LLaboutus.TabStop = true;
             this.LLaboutus.Text = "About Us";
@@ -162,15 +163,43 @@
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel2.BackgroundImage")));
-            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.LLaboutus, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(274, 316);
+            this.tableLayoutPanel2.Controls.Add(this.LLcontactus, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 1, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(274, 319);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(335, 28);
             this.tableLayoutPanel2.TabIndex = 2;
+            // 
+            // LLcontactus
+            // 
+            this.LLcontactus.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.LLcontactus.AutoSize = true;
+            this.LLcontactus.Font = new System.Drawing.Font("Lucida Sans", 15F);
+            this.LLcontactus.Location = new System.Drawing.Point(180, 2);
+            this.LLcontactus.Name = "LLcontactus";
+            this.LLcontactus.Size = new System.Drawing.Size(116, 23);
+            this.LLcontactus.TabIndex = 7;
+            this.LLcontactus.TabStop = true;
+            this.LLcontactus.Text = "Contact Us";
+            this.LLcontactus.Click += new System.EventHandler(this.LLcontactus_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 18F);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(160, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(14, 27);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "|";
             // 
             // Login
             // 
@@ -206,6 +235,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel LLaboutus;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.LinkLabel LLcontactus;
+        private System.Windows.Forms.Label label3;
     }
 }
 

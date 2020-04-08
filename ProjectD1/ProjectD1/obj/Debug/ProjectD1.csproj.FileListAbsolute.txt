@@ -10,3 +10,5 @@ C:\Users\David\source\repos\ProjectD1\ProjectD1\bin\Debug\usersDB.mdf
 C:\Users\David\source\repos\ProjectD1\ProjectD1\bin\Debug\usersDB_log.ldf
 C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.AboutUs.resources
 C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.Login.resources
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.Registration.resources
+C:\Users\David\source\repos\ProjectD1\ProjectD1\obj\Debug\ProjectD1.ContactUs.resources

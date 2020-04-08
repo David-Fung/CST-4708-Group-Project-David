@@ -22,14 +22,14 @@ namespace ProjectD1
         {
             //  Establish a connection
             SqlConnection myconn = new SqlConnection();
-            myconn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\David\\source\\repos\\ProjectD1\\ProjectD1\\usersDB.mdf;Integrated Security=True";
+            myconn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\David\\Downloads\\Comics\\Comics.mdf;Integrated Security=True;Connect Timeout=30";
             myconn.Open();
             SqlDataReader reader;
 
             //  Make a SQLCommand object
             SqlCommand mycommand = new SqlCommand();
 
-            mycommand.CommandText = "SELECT * FROM usersDB WHERE Username = @username and Password = @password";
+            mycommand.CommandText = "SELECT * FROM Customer WHERE Username = @username and Password = @password";
             mycommand.Parameters.Add("@username", SqlDbType.VarChar, 50);
             mycommand.Parameters["@username"].Value = TBusername.Text;
             mycommand.Parameters.Add("@Password", SqlDbType.NVarChar, 50);
@@ -44,7 +44,7 @@ namespace ProjectD1
             }
             else
             {
-                MessageBox.Show("Invalid Account Information. Please Try Again.");
+                MessageBox.Show("Invalid Account Information. Please Try Again.", "Invalid Account Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 
@@ -58,5 +58,20 @@ namespace ProjectD1
             this.Close();
         }
 
+        private void BTNregister_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registration registration = new Registration();
+            registration.ShowDialog();
+            this.Close();
+        }
+
+        private void LLcontactus_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ContactUs contactUs = new ContactUs();
+            contactUs.ShowDialog();
+            this.Close();
+        }
     }
 }
