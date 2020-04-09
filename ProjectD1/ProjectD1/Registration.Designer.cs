@@ -35,15 +35,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.BTNback = new System.Windows.Forms.Button();
             this.BTNCreate = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.TBusername = new System.Windows.Forms.TextBox();
             this.TBfirstname = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.TBlastname = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.TBpassword = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.TBusername = new System.Windows.Forms.TextBox();
             this.TBcreditcard = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -52,7 +52,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::ProjectD1.Properties.Resources.Logo;
             this.pictureBox1.Location = new System.Drawing.Point(342, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(197, 161);
@@ -63,7 +63,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel1.BackgroundImage")));
+            this.tableLayoutPanel1.BackgroundImage = global::ProjectD1.Properties.Resources.Black;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.15068F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.84932F));
@@ -141,18 +141,6 @@
             this.BTNCreate.UseVisualStyleBackColor = false;
             this.BTNCreate.Click += new System.EventHandler(this.BTNcreate_Click);
             // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 118);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Username:";
-            // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -164,15 +152,6 @@
             this.label3.Size = new System.Drawing.Size(128, 23);
             this.label3.TabIndex = 6;
             this.label3.Text = "First Name:";
-            // 
-            // TBusername
-            // 
-            this.TBusername.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.TBusername.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBusername.Location = new System.Drawing.Point(191, 114);
-            this.TBusername.Name = "TBusername";
-            this.TBusername.Size = new System.Drawing.Size(230, 31);
-            this.TBusername.TabIndex = 2;
             // 
             // TBfirstname
             // 
@@ -206,6 +185,15 @@
             this.TBlastname.TabIndex = 10;
             this.TBlastname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TBlastname_KeyPress);
             // 
+            // TBpassword
+            // 
+            this.TBpassword.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.TBpassword.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBpassword.Location = new System.Drawing.Point(191, 151);
+            this.TBpassword.Name = "TBpassword";
+            this.TBpassword.Size = new System.Drawing.Size(230, 31);
+            this.TBpassword.TabIndex = 3;
+            // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -217,6 +205,18 @@
             this.label2.Size = new System.Drawing.Size(114, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password:";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(3, 118);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Username:";
             // 
             // label4
             // 
@@ -230,14 +230,14 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Credit Card:";
             // 
-            // TBpassword
+            // TBusername
             // 
-            this.TBpassword.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.TBpassword.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBpassword.Location = new System.Drawing.Point(191, 151);
-            this.TBpassword.Name = "TBpassword";
-            this.TBpassword.Size = new System.Drawing.Size(230, 31);
-            this.TBpassword.TabIndex = 3;
+            this.TBusername.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.TBusername.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBusername.Location = new System.Drawing.Point(191, 114);
+            this.TBusername.Name = "TBusername";
+            this.TBusername.Size = new System.Drawing.Size(230, 31);
+            this.TBusername.TabIndex = 2;
             // 
             // TBcreditcard
             // 

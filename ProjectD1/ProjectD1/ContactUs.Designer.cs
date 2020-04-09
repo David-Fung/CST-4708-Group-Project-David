@@ -86,7 +86,7 @@
             this.BTNlogin.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.BTNlogin.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BTNlogin.Font = new System.Drawing.Font("Lucida Sans", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNlogin.Location = new System.Drawing.Point(342, 210);
+            this.BTNlogin.Location = new System.Drawing.Point(341, 210);
             this.BTNlogin.Name = "BTNlogin";
             this.BTNlogin.Size = new System.Drawing.Size(90, 34);
             this.BTNlogin.TabIndex = 4;
@@ -97,7 +97,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::ProjectD1.Properties.Resources.Logo;
             this.pictureBox1.Location = new System.Drawing.Point(370, -2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(125, 100);
@@ -108,11 +108,11 @@
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel2.BackgroundImage")));
+            this.tableLayoutPanel2.BackgroundImage = global::ProjectD1.Properties.Resources.Black;
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.54462F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.45538F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 11F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 12F));
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.TBmessage, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label2, 0, 0);
@@ -145,7 +145,7 @@
             this.TBmessage.Font = new System.Drawing.Font("Lucida Sans", 15F);
             this.TBmessage.Location = new System.Drawing.Point(118, 3);
             this.TBmessage.Name = "TBmessage";
-            this.TBmessage.Size = new System.Drawing.Size(314, 201);
+            this.TBmessage.Size = new System.Drawing.Size(313, 201);
             this.TBmessage.TabIndex = 6;
             this.TBmessage.Text = "";
             // 
