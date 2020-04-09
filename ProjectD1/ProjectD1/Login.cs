@@ -61,24 +61,22 @@ namespace ProjectD1
         {
             this.Hide();
             AboutUs aboutus = new AboutUs();
-            aboutus.ShowDialog();
-            this.Close();
+            aboutus.Show();
         }
 
         private void BTNregister_Click(object sender, EventArgs e)
         {
             this.Hide();
             Registration registration = new Registration();
-            registration.ShowDialog();
-            this.Close();
+            registration.Show();
+    
         }
 
         private void LLcontactus_Click(object sender, EventArgs e)
         {
             this.Hide();
             ContactUs contactUs = new ContactUs();
-            contactUs.ShowDialog();
-            this.Close();
+            contactUs.Show();
         }
     }
 }

@@ -46,8 +46,7 @@ namespace ProjectD1
         {
             this.Hide();
             Login login = new Login();
-            login.ShowDialog();
-            this.Close();
+            login.Show();
         }
     }
 }

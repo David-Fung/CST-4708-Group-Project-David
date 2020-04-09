@@ -24,8 +24,7 @@ namespace ProjectD1
         {
             this.Hide();
             Login login = new Login();
-            login.ShowDialog();
-            this.Close();
+            login.Show();
         }
 
         private void BTNcreate_Click(object sender, EventArgs e)
@@ -58,8 +57,7 @@ namespace ProjectD1
 
                 this.Hide();
                 Login login = new Login();
-                login.ShowDialog();
-                this.Close();
+                login.Show();
             }
 
         }
